@@ -1,0 +1,6 @@
+s1=input("Name:")
+s2=input("DOB:")
+s3=input("Contact:")
+
+password=s3[:3]+s1[len(s1)-3:len(s1)]+s2[len(s2)-4:len(s2)]
+print(password)
