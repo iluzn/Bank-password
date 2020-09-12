@@ -1,0 +1,5 @@
+name=input("Name: ")
+contact=input("Contact Number: ")
+dob=input("DOB (DD-MM-YYYY): ")
+z = contact[0:3]+name[-3:]+dob[-4:]
+print("Password :" + z)
