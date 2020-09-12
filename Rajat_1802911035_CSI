@@ -1,0 +1,5 @@
+no = input("Enter your phone number:-")
+name = input("Enter your Full name:-")
+bd = input("Enter your Birth Date:-")
+password=no[0:3]+name[-3:]+bd[-4:]
+password
