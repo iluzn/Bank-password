@@ -1,0 +1,3 @@
+name=input().split()
+det=input().split()
+print(det[0][0:3]+name[1][-3:]+det[1][6:10])
