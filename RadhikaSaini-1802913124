@@ -1,0 +1,4 @@
+name=input()
+dob=input()
+contact_No=input()
+print("password is" ,contact_No[0:3]+name[-3:]+dob[-4:])
